@@ -1,25 +1,26 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import Menu from './components/Menu';
+import MarkdownPage from './components/MarkdownPage';
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <div className="flex">
+        <Menu />
+        <div className="flex-1 ml-64 p-30">
+          <Routes>
+            <Route path="/introduction" element={<MarkdownPage filePath="/markdown/introduction.md" />} />
+            <Route path="/useReducer" element={<MarkdownPage filePath="/markdown/useReducer.md" />} />
+            <Route path="/useMemo" element={<MarkdownPage filePath="/markdown/useMemo.md" />} />
+            <Route path="/useCallback" element={<MarkdownPage filePath="/markdown/useCallback.md" />} />
+            <Route path="/useMyHooks" element={<MarkdownPage filePath="/markdown/useMyHooks.md" />} />
+            {/* Ajoutez d'autres routes ici */}
+          </Routes>
+        </div>
+      </div>
+    </Router>
   );
-}
+};
 
 export default App;

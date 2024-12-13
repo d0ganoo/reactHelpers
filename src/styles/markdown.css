@@ -1,0 +1,120 @@
+/* Styles spécifiques pour le contenu Markdown */
+.markdown-content h1, .markdown-content h2, .markdown-content h3, .markdown-content h4, .markdown-content h5, .markdown-content h6 {
+    margin-top: 1.5rem;
+    margin-bottom: 1rem;
+    font-weight: bold;
+    line-height: 1.2;
+  }
+  
+  .markdown-content h1 {
+    font-size: 2.5rem;
+  }
+  
+  .markdown-content h2 {
+    font-size: 2rem;
+  }
+  
+  .markdown-content h3 {
+    font-size: 1.75rem;
+  }
+  
+  .markdown-content h4 {
+    font-size: 1.5rem;
+  }
+  
+  .markdown-content h5 {
+    font-size: 1.25rem;
+  }
+  
+  .markdown-content h6 {
+    font-size: 1rem;
+  }
+  
+  .markdown-content p {
+    margin-bottom: 1rem;
+    line-height: 1.6;
+  }
+  
+  .markdown-content ul, .markdown-content ol {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    padding-left: 1.5rem;
+  }
+  
+  .markdown-content ul {
+    list-style-type: disc;
+  }
+  
+  .markdown-content ol {
+    list-style-type: decimal;
+  }
+  
+  .markdown-content li {
+    margin-bottom: 0.5rem;
+  }
+  
+  .markdown-content a {
+    color: #1a0dab;
+    text-decoration: none;
+  }
+  
+  .markdown-content a:hover {
+    text-decoration: underline;
+  }
+  
+  .markdown-content blockquote {
+    margin: 1rem 0;
+    padding: 0.5rem 1rem;
+    border-left: 4px solid #ddd;
+    background-color: #f9f9f9;
+    font-style: italic;
+  }
+  
+  .markdown-content table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 1rem;
+  }
+  
+  .markdown-content th, .markdown-content td {
+    border: 1px solid #ddd;
+    padding: 0.5rem;
+    text-align: left;
+  }
+  
+  .markdown-content th {
+    background-color: #f4f4f4;
+  }
+  
+  .markdown-content img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 1rem 0;
+  }
+  
+  .markdown-content strong {
+    font-weight: bold;
+  }
+  
+  .markdown-content em {
+    font-style: italic;
+  }
+  
+  .markdown-content input, .markdown-content textarea, .markdown-content select, .markdown-content button {
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  .markdown-content button {
+    background-color: #1a0dab;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .markdown-content button:hover {
+    background-color: #140a7a;
+  }
+  
