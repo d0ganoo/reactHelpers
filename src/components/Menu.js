@@ -18,22 +18,13 @@ const Menu = () => {
             </svg>
             Les Components
           </button>
-          {/* {open1 && (
+          {open1 && (
             <ul className="pl-4">
               <li className="mb-2">
-                <Link to="/useMemo" className="block p-2 rounded hover:bg-gray-700">React.memo</Link>
-              </li>
-              <li className="mb-2">
-                <Link to="/useMemo" className="block p-2 rounded hover:bg-gray-700">useMemo</Link>
-              </li>
-              <li className="mb-2">
-                <Link to="/useCallback" className="block p-2 rounded hover:bg-gray-700">useCallback</Link>
-              </li>
-              <li className="mb-2">
-                <Link to="/useMyHooks" className="block p-2 rounded hover:bg-gray-700">useMyHooks</Link>
+                <Link to="/ReactMemo" className="block p-2 rounded hover:bg-gray-700">React.memo</Link>
               </li>
             </ul>
-          )} */}
+          )}
         </li>
         <li className="mb-4">
           <button onClick={() => setOpen(!open)} className="w-full text-left p-2 rounded hover:bg-gray-700 flex items-center">

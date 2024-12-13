@@ -15,6 +15,7 @@ const App = () => {
             <Route path="/useMemo" element={<MarkdownPage filePath="/markdown/useMemo.md" />} />
             <Route path="/useCallback" element={<MarkdownPage filePath="/markdown/useCallback.md" />} />
             <Route path="/useMyHooks" element={<MarkdownPage filePath="/markdown/useMyHooks.md" />} />
+            <Route path="/ReactMemo" element={<MarkdownPage filePath="/markdown/ReactMemo.md" />} />
             {/* Ajoutez d'autres routes ici */}
           </Routes>
         </div>
