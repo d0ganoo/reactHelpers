@@ -9,7 +9,13 @@ const Menu = () => {
     <nav className="w-64 bg-gray-800 text-white h-screen fixed">
       <ul className="p-10 pt-14">
         <li className="mb-4">
-          <Link to="/introduction" className="block p-2 rounded hover:bg-gray-700">Introduction</Link>
+          <Link to="/introduction" className="block p-2 rounded hover:bg-gray-700">React starter</Link>
+        </li>
+        <li className="mb-4">
+          <Link to="/callApi" className="block p-2 rounded hover:bg-gray-700">Les calls API</Link>
+        </li>
+        <li className="mb-4">
+          <Link to="/mutations" className="block p-2 rounded hover:bg-gray-700">Les mutations react queries</Link>
         </li>
         <li className="mb-4">
           <button onClick={() => setOpen1(!open1)} className="w-full text-left p-2 rounded hover:bg-gray-700 flex items-center">
@@ -22,6 +28,12 @@ const Menu = () => {
             <ul className="pl-4">
               <li className="mb-2">
                 <Link to="/ReactMemo" className="block p-2 rounded hover:bg-gray-700">React.memo</Link>
+              </li>
+              <li className="mb-2">
+                <Link to="/ReactForwardRef" className="block p-2 rounded hover:bg-gray-700">React.forwardRef</Link>
+              </li>
+              <li className="mb-2">
+                <Link to="/ReactSuspense" className="block p-2 rounded hover:bg-gray-700">React.suspense</Link>
               </li>
             </ul>
           )}
